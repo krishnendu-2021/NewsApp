@@ -15,28 +15,28 @@ export class Navbar extends Component {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <Link className="nav-link " aria-current="page"  to="/">Home</Link>
+                                    <Link className="nav-link " aria-current="page"  to="/NewsApp">Home</Link>
                                 </li>
-                                <li className="nav-item"><Link className="nav-link"  to="/buisness">
+                                <li className="nav-item"><Link className="nav-link"  to="/NewsApp/buisness">
                                     Buisness
                                 </Link></li>
                                 <li className="nav-item">
-                                    <Link className="nav-link"  to="/sports">Sports</Link>
+                                    <Link className="nav-link"  to="/NewsApp/sports">Sports</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link"  to="/entertainment">Entertainment</Link>
+                                    <Link className="nav-link"  to="/NewsApp/entertainment">Entertainment</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/general">General</Link>
+                                    <Link className="nav-link" to="/NewsApp/general">General</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/science">Science</Link>
+                                    <Link className="nav-link" to="/NewsApp/science">Science</Link>
                                 </li>
                                 <li className="nav-item">
-                                   <Link className="nav-link" to="/technology" >Technology</Link>
+                                   <Link className="nav-link" to="/NewsApp/technology" >Technology</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/health">Health</Link>
+                                    <Link className="nav-link" to="/NewsApp/health">Health</Link>
                                 </li>   
                             </ul>
                         </div>

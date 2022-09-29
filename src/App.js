@@ -15,37 +15,37 @@ const App = () => {
       <Routes>
         <Route
           exact
-          path="/"
+          path="/NewsApp/"
           element={<News  pageSize={pageSize} country={"in"} category={"general"} />}/>
         <Route
           exact
-          path="/buisness"
+          path="/NewsApp/buisness"
           element={<News  pageSize={pageSize} country={"in"} category={"buisness"} />}/>
         <Route
           exact
-          path="/sports"           
+          path="/NewsApp/sports"           
         element={<News  pageSize={pageSize} country={"us"} category={"sports"} />}/>
         <Route
           exact
-          path="/entertainment"
+          path="/NewsApp/entertainment"
                      
         element={<News  pageSize={pageSize} country={"in"} category={"entertainment"} />}/>
         <Route
           exact
-          path="/science"              
+          path="/NewsApp/science"              
         element={<News pageSize={pageSize} country={"in"} category={"science"} />}/>
         <Route
           exact
-          path="/technology"              
+          path="/NewsApp/technology"              
           element={ <News pageSize={pageSize} country={"in"} category={"technology"} />}/>
         <Route
           exact
-          path="/health"
+          path="/NewsApp/health"
           key={"health"}         
         element={<News pageSize={pageSize} country={"in"} category={"health"} />}/>
         <Route
           exact
-          path="/general"
+          path="/NewsApp/general"
          element={<News pageSize={pageSize} country={"in"} category={"general"} />}
         />
       </Routes> 
